@@ -5,4 +5,26 @@
 	(uuid "6e5a386d-2d02-406d-9007-45f7667f8ca4")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 97.79 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "259d2347-3685-4a8a-bc2c-940da7a0debd")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 97.79 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a34bc81-432a-4b4c-88a1-c430851f3f4a")
+	)
 )

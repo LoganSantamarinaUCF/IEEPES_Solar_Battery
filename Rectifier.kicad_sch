@@ -6,8 +6,55 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 107.95 132.08)
+		(size 54.61 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "23661c41-dbb5-4ca2-a742-531e78ada01c")
+		(property "Sheetname" "UCC_Chip"
+			(at 107.95 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UCC_Chip.kicad_sch"
+			(at 107.95 159.3346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Solar_Battery"
+				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 107.95 105.41)
-		(size 22.86 22.86)
+		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -44,10 +91,77 @@
 				(justify left top)
 			)
 		)
+		(pin "GND" input
+			(at 107.95 116.84 180)
+			(uuid "96627f73-21b1-49de-bfa6-6411f8f885ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 107.95 109.22 180)
+			(uuid "7c2e16ba-26e7-4c4a-afd0-cbcfc8bf3afd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 105.41)
+		(size 24.13 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7e488579-baf6-4b9f-affb-a6601b6eb832")
+		(property "Sheetname" "Transformer_Output"
+			(at 138.43 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Transformer_Output.kicad_sch"
+			(at 138.43 128.8546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Solar_Battery"
+				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179"
+					(page "5")
 				)
 			)
 		)

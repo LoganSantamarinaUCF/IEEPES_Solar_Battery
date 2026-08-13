@@ -448,6 +448,14 @@
     [
       "66c5df4f-46ad-4d4f-997c-052ec03a6539",
       "Diode_Bridge"
+    ],
+    [
+      "7e488579-baf6-4b9f-affb-a6601b6eb832",
+      "Transformer_Output"
+    ],
+    [
+      "23661c41-dbb5-4ca2-a742-531e78ada01c",
+      "UCC_Chip"
     ]
   ],
   "text_variables": {},
