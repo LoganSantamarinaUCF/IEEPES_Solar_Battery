@@ -27,4 +27,15 @@
 		)
 		(uuid "8a34bc81-432a-4b4c-88a1-c430851f3f4a")
 	)
+	(hierarchical_label "Iout"
+		(shape input)
+		(at 127 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a67855ae-585e-4699-9348-3ec2d119762f")
+	)
 )
