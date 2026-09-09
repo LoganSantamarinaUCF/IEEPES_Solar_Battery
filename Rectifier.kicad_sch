@@ -111,6 +111,16 @@
 				(justify left)
 			)
 		)
+		(pin "Iout" input
+			(at 133.35 114.3 0)
+			(uuid "e7508808-d122-4795-a3c0-46d373b8dff6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179"
