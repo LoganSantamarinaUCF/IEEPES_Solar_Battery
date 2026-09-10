@@ -92,7 +92,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 107.95 116.84 180)
+			(at 107.95 120.65 180)
 			(uuid "96627f73-21b1-49de-bfa6-6411f8f885ff")
 			(effects
 				(font
@@ -102,7 +102,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 107.95 109.22 180)
+			(at 107.95 113.03 180)
 			(uuid "7c2e16ba-26e7-4c4a-afd0-cbcfc8bf3afd")
 			(effects
 				(font
@@ -112,7 +112,7 @@
 			)
 		)
 		(pin "Iout" input
-			(at 133.35 114.3 0)
+			(at 133.35 115.57 0)
 			(uuid "e7508808-d122-4795-a3c0-46d373b8dff6")
 			(effects
 				(font
