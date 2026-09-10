@@ -431,10 +431,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "72a56775-99d4-44d4-9f49-9e9c0ab86b4e")
+			(uuid "72a56775-99d4-44d4-9f49-9e9c0ab86b4f")
 		)
 		(pin "1"
-			(uuid "3ecc998f-28ee-4333-a1e9-61b2c89f9a00")
+			(uuid "3ecc998f-28ee-4333-a1e9-61b2c89f9a01")
 		)
 		(instances
 			(project "Solar_Battery"
