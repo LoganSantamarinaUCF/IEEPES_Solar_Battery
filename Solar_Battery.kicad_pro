@@ -661,7 +661,7 @@
         "uuid": "6805959e-39bb-4644-b93e-3970e29fedc0"
       }
     ],
-    "used_designators": "D1-2",
+    "used_designators": "R1,#PWR1,D1-2",
     "variants": []
   },
   "sheets": [
@@ -679,7 +679,7 @@
     ],
     [
       "66c5df4f-46ad-4d4f-997c-052ec03a6539",
-      "Rectifier_Bridge"
+      "Diode_Bridge"
     ],
     [
       "7e488579-baf6-4b9f-affb-a6601b6eb832",
