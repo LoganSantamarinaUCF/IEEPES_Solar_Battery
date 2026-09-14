@@ -349,6 +349,458 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Transformer_1P_2S"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Transformer_1P_2S"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Transformer, single primary, dual secondary"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transformer coil magnet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Transformer_1P_2S_0_1"
+				(arc
+					(start -1.27 3.81)
+					(mid -1.656 2.9336)
+					(end -2.54 2.5654)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -1.656 0.3936)
+					(end -2.54 0.0254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -1.656 -2.1464)
+					(end -2.54 -2.5146)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.81)
+					(mid -1.656 -4.6864)
+					(end -2.54 -5.0546)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 5.08)
+					(mid -1.642 4.708)
+					(end -1.27 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.642 2.168)
+					(end -1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.642 -0.372)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.642 -2.912)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -10.16) (xy -0.508 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 10.16) (xy 0.508 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 8.89)
+					(mid 1.6457 9.7917)
+					(end 2.54 10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 6.35)
+					(mid 1.6457 7.2517)
+					(end 2.54 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 3.81)
+					(mid 1.6457 4.7117)
+					(end 2.54 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 -3.81)
+					(mid 1.6457 -2.9083)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 -6.35)
+					(mid 1.6457 -5.4483)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 -8.89)
+					(mid 1.6457 -7.9883)
+					(end 2.54 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 7.6454)
+					(mid 1.6599 8.0099)
+					(end 1.2954 8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.1054)
+					(mid 1.6599 5.4699)
+					(end 1.2954 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.5654)
+					(mid 1.6599 2.9299)
+					(end 1.2954 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -5.0546)
+					(mid 1.6599 -4.6901)
+					(end 1.2954 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -7.5946)
+					(mid 1.6599 -7.2301)
+					(end 1.2954 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -10.1346)
+					(mid 1.6599 -9.7701)
+					(end 1.2954 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Transformer_1P_2S_1_1"
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 7.62)
+					(name "AA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 7.62)
+					(name "AB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 7.62)
+					(name "SA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 7.62)
+					(name "SB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 7.62)
+					(name "SC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 7.62)
+					(name "SD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N914"
 			(pin_numbers
 				(hide yes)
@@ -652,7 +1104,12 @@
 			(embedded_fonts no)
 		)
 	)
-<<<<<<< HEAD
+	(junction
+		(at 184.15 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eb28362-3492-49cd-bd33-3eb63b930e23")
+	)
 	(junction
 		(at 208.28 77.47)
 		(diameter 0)
@@ -660,10 +1117,28 @@
 		(uuid "4d9fa920-1b8c-4d74-ba9a-dcb2a3cba692")
 	)
 	(junction
+		(at 93.98 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5853baeb-019b-4368-832f-f08d753e6f6c")
+	)
+	(junction
+		(at 93.98 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fa5c1de-4d33-4c38-8e47-58693f4a56a3")
+	)
+	(junction
 		(at 208.28 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71ebef5d-b4de-429c-b3e4-230e09aef213")
+	)
+	(junction
+		(at 113.03 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94b011f6-fa10-4ba0-9e73-b2b788f3c2e4")
 	)
 	(junction
 		(at 93.98 62.23)
@@ -679,6 +1154,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 111.76) (xy 184.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f47620-b401-4349-9e73-9aeee321a473")
+	)
+	(wire
+		(pts
+			(xy 102.87 81.28) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0661771c-a765-4312-b82a-b9ac639b53f7")
+	)
+	(wire
+		(pts
 			(xy 184.15 86.36) (xy 184.15 77.47)
 		)
 		(stroke
@@ -689,6 +1184,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b64b3b3-d07d-406e-a680-d65f9d0f40a3")
+	)
+	(wire
+		(pts
 			(xy 166.37 73.66) (xy 184.15 73.66)
 		)
 		(stroke
@@ -696,6 +1201,16 @@
 			(type default)
 		)
 		(uuid "291bdf9f-5941-4633-a969-7a9106840f9e")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2d92de-24c1-40be-9844-97e1fe212a21")
 	)
 	(wire
 		(pts
@@ -726,6 +1241,46 @@
 			(type default)
 		)
 		(uuid "4aed19e9-6a8d-40c9-879f-1d46334ff780")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 132.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581eec22-1df3-4f20-8e7f-1bfbd486bcd2")
+	)
+	(wire
+		(pts
+			(xy 119.38 86.36) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ccab277-b0b5-407e-9917-76305c026c0c")
+	)
+	(wire
+		(pts
+			(xy 157.48 73.66) (xy 158.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb73af9-2dc3-480e-bcd5-7aa0dcdf0ce0")
+	)
+	(wire
+		(pts
+			(xy 113.03 44.45) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6749ae57-1058-46ca-ae3b-92c1dd03487d")
 	)
 	(wire
 		(pts
@@ -776,6 +1331,16 @@
 			(type default)
 		)
 		(uuid "97debcb8-a36f-47ba-b887-d5865eea2b91")
+	)
+	(wire
+		(pts
+			(xy 156.21 78.74) (xy 165.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995f0ee6-3b8d-473b-8391-148a146dec3e")
 	)
 	(wire
 		(pts
@@ -849,6 +1414,56 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 78.74) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf484a3c-134e-4a38-ba09-e06cabe32dc4")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49badab-9ee8-4f9c-a6b9-0b895131ccf9")
+	)
+	(wire
+		(pts
+			(xy 135.89 81.28) (xy 102.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb771286-8ac1-405f-a00a-032239b265a9")
+	)
+	(wire
+		(pts
+			(xy 49.53 44.45) (xy 93.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd100051-ece2-4c46-a078-4698d99ba388")
+	)
+	(wire
+		(pts
+			(xy 156.21 88.9) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46e8ad3-b920-46fa-b668-3c15e1d448cb")
+	)
+	(wire
+		(pts
 			(xy 208.28 77.47) (xy 208.28 86.36)
 		)
 		(stroke
@@ -869,6 +1484,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 88.9) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd482c24-7b77-455e-ad23-7b286a875eab")
+	)
+	(wire
+		(pts
+			(xy 135.89 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e177e7c2-f53c-4987-ab0f-4f5f9dd287b4")
+	)
+	(wire
+		(pts
 			(xy 208.28 111.76) (xy 228.6 111.76)
 		)
 		(stroke
@@ -876,17 +1511,26 @@
 			(type default)
 		)
 		(uuid "e54ebffd-0399-4b7c-98d4-031221848aa1")
-=======
-	(text "note of how circuit works"
-		(exclude_from_sim no)
-		(at 172.212 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 132.08 44.45)
 		)
-		(uuid "4e4ac619-5a31-48e5-9582-5fde5edea941")
->>>>>>> 0431e937e3600adfb9636b7491204376c251fdc8
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f035d9cf-9fbc-4398-9a53-6ea102640a9e")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07c69e4-ce7b-4ffb-ba8d-1304159bb813")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1488,6 +2132,99 @@
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/7e488579-baf6-4b9f-affb-a6601b6eb832"
 					(reference "+")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Transformer_1P_2S")
+		(at 146.05 83.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4b286c7-b7af-45e5-b467-5faab633e72a")
+		(property "Reference" "T1"
+			(at 146.05 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T1"
+			(at 146.05 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transformer, single primary, dual secondary"
+			(at 146.05 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72ad8d3d-0650-422d-a0b1-a840a8717d5a")
+		)
+		(pin "4"
+			(uuid "c8e6542b-75a2-4022-8060-525eaf5bf90e")
+		)
+		(pin "6"
+			(uuid "869e3e85-454a-4df2-9d0c-40fea2e2e9ae")
+		)
+		(pin "5"
+			(uuid "953792d5-cd2e-4ea5-8ec8-989bd12c676c")
+		)
+		(pin "2"
+			(uuid "89baee9a-0786-4d3a-819a-69a38fa9fa88")
+		)
+		(pin "3"
+			(uuid "7ecdef3e-7bc4-44b2-b706-d0eeb8e54621")
+		)
+		(instances
+			(project "Solar_Battery"
+				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "T1")
 					(unit 1)
 				)
 			)
