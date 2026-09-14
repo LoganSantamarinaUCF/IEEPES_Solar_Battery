@@ -661,7 +661,11 @@
         "uuid": "6805959e-39bb-4644-b93e-3970e29fedc0"
       }
     ],
+<<<<<<< HEAD
     "used_designators": "T1,+1,D1-2,#PWR1-2,C3-4,R1-4,C1+1",
+=======
+    "used_designators": "R1,#PWR1,D1-2,U1,+1-5,C1+1,CSNUB1",
+>>>>>>> 2d9953a56ba0e9e1b4250e93c06d19bbe07c7a2f
     "variants": []
   },
   "sheets": [
@@ -688,10 +692,6 @@
     [
       "23661c41-dbb5-4ca2-a742-531e78ada01c",
       "UCC_Chip"
-    ],
-    [
-      "1c3dee64-7913-44bd-9129-7d93d080090a",
-      "c"
     ]
   ],
   "text_variables": {},
