@@ -310,6 +310,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "note of how circuit works"
+		(exclude_from_sim no)
+		(at 172.212 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e4ac619-5a31-48e5-9582-5fde5edea941")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 119.38 100.33 0)
