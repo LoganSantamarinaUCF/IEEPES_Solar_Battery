@@ -68,7 +68,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "66c5df4f-46ad-4d4f-997c-052ec03a6539")
-		(property "Sheetname" "Rectifier_Bridge"
+		(property "Sheetname" "Rectifier_bridge"
 			(at 107.95 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
