@@ -168,6 +168,56 @@
 				(justify left top)
 			)
 		)
+		(pin "Chip_In" input
+			(at 138.43 107.95 180)
+			(uuid "0b03f346-4346-4509-9271-b499597de221")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I_In" input
+			(at 138.43 110.49 180)
+			(uuid "76227e62-e53e-4d25-a7f0-7896f71bc595")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I_Out" input
+			(at 138.43 113.03 180)
+			(uuid "08e1f1ff-2a2f-44f3-a407-3d6305c212e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rectifier_In" input
+			(at 138.43 115.57 180)
+			(uuid "c49308e8-6848-4c66-97f8-c5a01eb20372")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Transformer_Out" input
+			(at 162.56 121.92 0)
+			(uuid "226bff1e-5e81-4804-bb6e-a32c39763789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179"
