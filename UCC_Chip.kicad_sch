@@ -1664,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 86.36) (xy 99.06 86.36)
+			(xy 68.58 86.36) (xy 100.33 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +1852,7 @@
 		)
 		(uuid "f8641d08-677a-4df0-80fe-911bb8d44371")
 	)
-	(hierarchical_label "Chip_In"
+	(hierarchical_label "Chip_Out"
 		(shape input)
 		(at 34.29 53.34 180)
 		(effects
