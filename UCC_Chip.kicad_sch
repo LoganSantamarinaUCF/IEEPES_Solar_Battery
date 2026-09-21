@@ -734,6 +734,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 63.5) (xy 92.71 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf1a2da-032d-4209-8890-0b9766e14849")
+	)
+	(wire
+		(pts
 			(xy 160.02 68.58) (xy 160.02 74.93)
 		)
 		(stroke
@@ -906,7 +916,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 125.73 111.76 0)
+		(at 83.82 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -917,29 +927,27 @@
 		(fields_autoplaced yes)
 		(uuid "0acc09ae-cd16-481e-94b9-fe157f5a4880")
 		(property "Reference" "R4"
-			(at 128.27 110.4899 0)
+			(at 83.82 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R_US"
-			(at 128.27 113.0299 0)
+			(at 83.82 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 126.746 112.014 90)
+			(at 84.074 62.484 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -950,7 +958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 111.76 0)
+			(at 83.82 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -961,7 +969,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 125.73 111.76 0)
+			(at 83.82 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
