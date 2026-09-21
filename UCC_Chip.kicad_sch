@@ -349,6 +349,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N914"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N914"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N914_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N914_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -622,6 +809,48 @@
 		(color 0 0 0 0)
 		(uuid "015f42ab-b6a5-455d-a305-d55dd4fc014f")
 	)
+	(junction
+		(at 91.44 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f2cbd82-7d72-485d-951d-9766e0c3e0e5")
+	)
+	(junction
+		(at 91.44 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e583b5e-e7bd-4a5c-a5eb-3c3498dc23f0")
+	)
+	(junction
+		(at 58.42 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e275650-87f0-4be5-b125-86ddc92fa447")
+	)
+	(junction
+		(at 142.24 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76d1c735-732a-4217-b09a-ffc2cdf8288b")
+	)
+	(junction
+		(at 58.42 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b977db3d-98bf-44fd-8ade-eab6f7fd8a62")
+	)
+	(junction
+		(at 91.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df534b3f-57f4-4ab5-9661-1ff6b8d7e98b")
+	)
+	(junction
+		(at 91.44 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e97dad9c-565e-419c-a250-44a233d2ad31")
+	)
 	(wire
 		(pts
 			(xy 137.16 92.71) (xy 142.24 92.71)
@@ -631,6 +860,16 @@
 			(type default)
 		)
 		(uuid "02d35ca4-1821-4097-81b9-110f3744e1e8")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b80e08-7d7f-4f7c-abf8-bfec5e12a4e0")
 	)
 	(wire
 		(pts
@@ -644,6 +883,36 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 102.87) (xy 93.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da845a1-dec8-4fbd-9971-96cd47c91f1d")
+	)
+	(wire
+		(pts
+			(xy 72.39 110.49) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef6ea55-4a6b-4858-b0a1-b9bd0a465674")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154bcb4c-88ec-4138-8d2c-aad26be03faf")
+	)
+	(wire
+		(pts
 			(xy 129.54 92.71) (xy 127 92.71)
 		)
 		(stroke
@@ -651,6 +920,16 @@
 			(type default)
 		)
 		(uuid "17ae2be4-632d-4a09-be99-b977f2074220")
+	)
+	(wire
+		(pts
+			(xy 58.42 73.66) (xy 58.42 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ceb52fb-a828-47ee-a719-ff6abd894b02")
 	)
 	(wire
 		(pts
@@ -664,6 +943,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 80.01) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ede550b-f845-45c4-a5ae-73d171d5657d")
+	)
+	(wire
+		(pts
 			(xy 142.24 68.58) (xy 142.24 72.39)
 		)
 		(stroke
@@ -674,13 +963,43 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 63.5) (xy 106.68 63.5)
+			(xy 91.44 77.47) (xy 81.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397e0631-4d6b-4749-a51e-c9f554f86251")
+	)
+	(wire
+		(pts
+			(xy 93.98 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484f33c9-f7f0-4550-9e08-944886e32ad7")
+	)
+	(wire
+		(pts
+			(xy 100.33 53.34) (xy 106.68 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5295e18b-d1d3-40c4-ad4b-80f62e9b7699")
+	)
+	(wire
+		(pts
+			(xy 58.42 66.04) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57aa6a16-fcde-49a7-ba36-4fcb0926ef04")
 	)
 	(wire
 		(pts
@@ -714,6 +1033,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 99.06) (xy 72.39 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bb553f-7588-49ba-ad45-44d3b3ddc839")
+	)
+	(wire
+		(pts
 			(xy 142.24 92.71) (xy 142.24 110.49)
 		)
 		(stroke
@@ -721,6 +1050,46 @@
 			(type default)
 		)
 		(uuid "6a18eeba-883e-4ec0-83ac-f683aefcf891")
+	)
+	(wire
+		(pts
+			(xy 81.28 77.47) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bac10d4-1b44-4433-ba91-9f5745af062b")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7a191e-da78-4562-958f-24c36be6f5b5")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e68d0f-2296-4a2c-99a1-c1a74d7ab74b")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76faf77b-87a6-4d32-bf53-b03d2d4bf3da")
 	)
 	(wire
 		(pts
@@ -734,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 63.5) (xy 92.71 63.5)
+			(xy 87.63 53.34) (xy 91.44 53.34)
 		)
 		(stroke
 			(width 0)
@@ -754,6 +1123,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 53.34) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e808a74-6f16-4bc3-b500-a966d8703a79")
+	)
+	(wire
+		(pts
 			(xy 143.51 80.01) (xy 143.51 85.09)
 		)
 		(stroke
@@ -761,6 +1140,56 @@
 			(type default)
 		)
 		(uuid "8d6614d4-764b-4e71-8a53-57f8e729e182")
+	)
+	(wire
+		(pts
+			(xy 35.56 53.34) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a23b27b-1811-43ee-a60a-6f8a3e6feeb6")
+	)
+	(wire
+		(pts
+			(xy 91.44 99.06) (xy 87.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a355136-1b9e-46f3-8673-95f5df339d36")
+	)
+	(wire
+		(pts
+			(xy 68.58 86.36) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab498c4-b224-47f5-bb5c-3335de32ccb0")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 91.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35e98c1-5891-4f5f-b3eb-d2ab437fc091")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 99.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4539ebb-f254-46ad-8c2f-28a56be718ae")
 	)
 	(wire
 		(pts
@@ -774,6 +1203,66 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 71.12) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a4d4f7-a031-4bed-b3f0-36cb1409b058")
+	)
+	(wire
+		(pts
+			(xy 60.96 88.9) (xy 60.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb6ea4f-e19f-4594-9c98-52812e3debba")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 58.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beeaa629-2744-492e-ba88-a4722a357506")
+	)
+	(wire
+		(pts
+			(xy 58.42 53.34) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8186676-1b46-4538-a56f-c78cfbd8c265")
+	)
+	(wire
+		(pts
+			(xy 91.44 53.34) (xy 92.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9eee82f-b286-4173-a98a-8afd48ae5b58")
+	)
+	(wire
+		(pts
+			(xy 91.44 99.06) (xy 91.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5d3fee-b525-4523-8b4c-4cf70171a276")
+	)
+	(wire
+		(pts
 			(xy 160.02 74.93) (xy 160.02 80.01)
 		)
 		(stroke
@@ -781,6 +1270,26 @@
 			(type default)
 		)
 		(uuid "d59ad621-96a2-456d-b699-4bc9fbd40ab0")
+	)
+	(wire
+		(pts
+			(xy 60.96 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a5e8be-630f-4b9f-a2b8-6abb310cfbe9")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 91.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0e9289-f5c5-4062-ab9d-d051a472e610")
 	)
 	(wire
 		(pts
@@ -804,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 63.5) (xy 106.68 68.58)
+			(xy 106.68 53.34) (xy 106.68 58.42)
 		)
 		(stroke
 			(width 0)
@@ -832,9 +1341,19 @@
 		)
 		(uuid "ef8b49d7-305e-45a9-a970-566db7e27cce")
 	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 72.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8641d08-677a-4df0-80fe-911bb8d44371")
+	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 110.49 111.76 0)
+		(at 83.82 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -842,32 +1361,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07ca9b98-3f27-4763-b444-d4817674f1b1")
-		(property "Reference" "R3"
-			(at 113.03 110.4899 0)
+		(property "Reference" "+"
+			(at 81.026 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R_US"
-			(at 113.03 113.0299 0)
+		(property "Value" "RCS"
+			(at 83.82 96.012 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.506 112.014 90)
+			(at 84.074 98.044 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -878,7 +1394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 111.76 0)
+			(at 83.82 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -889,7 +1405,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 110.49 111.76 0)
+			(at 83.82 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -908,7 +1424,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "R3")
+					(reference "+")
 					(unit 1)
 				)
 			)
@@ -916,7 +1432,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 83.82 63.5 90)
+		(at 83.82 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -924,10 +1440,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0acc09ae-cd16-481e-94b9-fe157f5a4880")
-		(property "Reference" "R4"
-			(at 83.82 57.15 90)
+		(property "Reference" "+"
+			(at 81.026 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -936,8 +1451,8 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 83.82 59.69 90)
+		(property "Value" "RDD"
+			(at 83.82 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -947,7 +1462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.074 62.484 90)
+			(at 84.074 52.324 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -958,7 +1473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 63.5 0)
+			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -969,7 +1484,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 83.82 63.5 0)
+			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -988,7 +1503,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "R4")
+					(reference "+")
 					(unit 1)
 				)
 			)
@@ -996,7 +1511,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 97.79 111.76 0)
+		(at 58.42 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1004,10 +1519,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "132f047c-d04d-47e5-863e-2f8f36d22be5")
-		(property "Reference" "R2"
-			(at 100.33 110.4899 0)
+		(property "Reference" "+"
+			(at 55.118 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1017,8 +1531,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
-			(at 100.33 113.0299 0)
+		(property "Value" "RFBB"
+			(at 54.61 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1029,7 +1543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.806 112.014 90)
+			(at 59.436 87.884 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1040,7 +1554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 111.76 0)
+			(at 58.42 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1051,7 +1565,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 97.79 111.76 0)
+			(at 58.42 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1070,7 +1584,108 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "R2")
+					(reference "+")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 68.58 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "484a1e04-8539-47c0-b1bc-731cf108e0ea")
+		(property "Reference" "+"
+			(at 63.246 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D3-ZENER"
+			(at 68.58 56.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 68.58 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 68.58 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 68.58 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 68.58 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "53141df4-57b0-4d6b-ac3a-20310d0ff049")
+		)
+		(pin "1"
+			(uuid "5cc838dc-1f1d-44da-94fe-59f0a3087a54")
+		)
+		(instances
+			(project "Solar_Battery"
+				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
+					(reference "+")
 					(unit 1)
 				)
 			)
@@ -1078,7 +1693,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 95.25 82.55 270)
+		(at 73.66 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1088,7 +1703,7 @@
 		(dnp no)
 		(uuid "5edeafc8-bcea-4ced-9535-f277b61bfda8")
 		(property "Reference" "#PWR05"
-			(at 88.9 82.55 0)
+			(at 67.31 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1099,7 +1714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.186 81.026 0)
+			(at 69.596 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1110,7 +1725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 82.55 0)
+			(at 73.66 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1121,7 +1736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 82.55 0)
+			(at 73.66 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1132,7 +1747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 95.25 82.55 0)
+			(at 73.66 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1149,6 +1764,107 @@
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 85.09 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62207e3d-8852-4626-a69a-520579f7fbec")
+		(property "Reference" "+"
+			(at 79.756 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DZ-ZENER"
+			(at 85.09 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 85.09 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 85.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 85.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a5484c53-f7a0-440a-8ee1-1f91d9acdaab")
+		)
+		(pin "1"
+			(uuid "cbd70bde-e55e-4603-bc3f-b60288c2fb35")
+		)
+		(instances
+			(project "Solar_Battery"
+				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
+					(reference "+")
 					(unit 1)
 				)
 			)
@@ -1314,7 +2030,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 99.06 0)
+		(at 93.98 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1325,7 +2041,7 @@
 		(fields_autoplaced yes)
 		(uuid "86b8aa69-4e67-4d8d-9eda-88483db6978c")
 		(property "Reference" "#PWR02"
-			(at 113.03 105.41 0)
+			(at 93.98 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1336,7 +2052,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 104.14 0)
+			(at 93.98 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1346,7 +2062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 99.06 0)
+			(at 93.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1357,7 +2073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 99.06 0)
+			(at 93.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,7 +2084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 99.06 0)
+			(at 93.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1549,7 +2265,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 63.5 90)
+		(at 96.52 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1559,7 +2275,7 @@
 		(dnp no)
 		(uuid "b0309bab-0082-46c7-b6f3-93042d65b4d9")
 		(property "Reference" "CDD"
-			(at 96.52 59.436 90)
+			(at 96.52 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1569,7 +2285,7 @@
 			)
 		)
 		(property "Value" "+"
-			(at 93.98 60.452 90)
+			(at 93.98 50.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1579,7 +2295,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 100.33 62.5348 0)
+			(at 100.33 52.3748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1590,7 +2306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 63.5 0)
+			(at 96.52 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1601,7 +2317,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 63.5 0)
+			(at 96.52 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1628,7 +2344,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 87.63 111.76 0)
+		(at 58.42 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1636,10 +2352,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1eb41ab-cb64-48e2-8134-c32a086b46fd")
-		(property "Reference" "R1"
-			(at 90.17 110.4899 0)
+		(property "Reference" "+"
+			(at 55.88 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1649,8 +2364,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
-			(at 90.17 113.0299 0)
+		(property "Value" "RFBT"
+			(at 55.88 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1661,7 +2376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.646 112.014 90)
+			(at 59.436 70.104 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +2387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 111.76 0)
+			(at 58.42 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1683,7 +2398,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 87.63 111.76 0)
+			(at 58.42 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +2417,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "R1")
+					(reference "+")
 					(unit 1)
 				)
 			)
@@ -1710,7 +2425,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 68.58 0)
+		(at 106.68 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1721,7 +2436,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0bcf713-2a39-4485-a71b-175e02a3d6a2")
 		(property "Reference" "#PWR04"
-			(at 106.68 74.93 0)
+			(at 106.68 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1732,7 +2447,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 73.66 0)
+			(at 106.68 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1742,7 +2457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 68.58 0)
+			(at 106.68 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1753,7 +2468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 68.58 0)
+			(at 106.68 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,7 +2479,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 68.58 0)
+			(at 106.68 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
