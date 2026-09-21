@@ -1464,6 +1464,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 53.34) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334862d3-90d6-45a9-8d5f-dac33b3b78c7")
+	)
+	(wire
+		(pts
 			(xy 91.44 77.47) (xy 81.28 77.47)
 		)
 		(stroke
@@ -1641,16 +1651,6 @@
 			(type default)
 		)
 		(uuid "8d6614d4-764b-4e71-8a53-57f8e729e182")
-	)
-	(wire
-		(pts
-			(xy 35.56 53.34) (xy 58.42 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a23b27b-1811-43ee-a60a-6f8a3e6feeb6")
 	)
 	(wire
 		(pts
@@ -1851,6 +1851,17 @@
 			(type default)
 		)
 		(uuid "f8641d08-677a-4df0-80fe-911bb8d44371")
+	)
+	(hierarchical_label "Chip_In"
+		(shape input)
+		(at 34.29 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69acef36-b1f2-46a1-af25-49936ed47eca")
 	)
 	(symbol
 		(lib_id "Device:R_US")
