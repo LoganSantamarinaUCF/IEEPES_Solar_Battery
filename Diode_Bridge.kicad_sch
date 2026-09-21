@@ -160,9 +160,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Bridge_+-AA"
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -170,25 +174,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 2.54 6.985 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "D_Bridge_+-AA"
-				(at 2.54 5.08 0)
+			(property "Value" "D"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -213,7 +215,7 @@
 					)
 				)
 			)
-			(property "Description" "Diode bridge, +ve/-ve/AC/AC"
+			(property "Description" "Diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -224,7 +226,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "rectifier ACDC"
+			(property "Sim.Device" "D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -235,7 +237,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*Bridge* D*Rectifier*"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -246,165 +248,71 @@
 					)
 				)
 			)
-			(symbol "D_Bridge_+-AA_0_1"
-				(circle
-					(center -5.08 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -3.81 -2.54) (xy -1.905 -3.175) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -1.905) (xy 1.27 -2.54) (xy 2.54 -3.81) (xy 3.175 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "D_Bridge_+-AA_1_1"
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
 				(pin passive line
-					(at 7.62 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "+"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -420,9 +328,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "-"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -430,42 +338,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -911,10 +783,34 @@
 		)
 	)
 	(junction
+		(at 116.84 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08d8ae93-f740-472e-8bf2-bdbe62985edb")
+	)
+	(junction
+		(at 137.16 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f3b23c9-b25c-4fb7-b30d-9198e4bfd68d")
+	)
+	(junction
+		(at 127 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2423a2e2-fe6b-43e4-ab42-d5a0e260a6ef")
+	)
+	(junction
 		(at 158.75 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57be7c7f-cf63-4111-a609-338c61f022e1")
+	)
+	(junction
+		(at 127 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70234d3b-876d-440d-bfb8-4532503a9dcd")
 	)
 	(junction
 		(at 163.83 67.31)
@@ -930,6 +826,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 74.93) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a0eaee-e619-4ac0-bc18-e1cda997bda5")
+	)
+	(wire
+		(pts
 			(xy 127 67.31) (xy 127 74.93)
 		)
 		(stroke
@@ -940,6 +846,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 82.55) (xy 139.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08678f67-fd1f-4886-a5d7-b9f58699d32c")
+	)
+	(wire
+		(pts
 			(xy 88.9 67.31) (xy 88.9 71.12)
 		)
 		(stroke
@@ -947,6 +863,36 @@
 			(type default)
 		)
 		(uuid "0bc275e0-2205-4b10-94e5-5dcf99cef6d1")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c83b44e-a877-4e8c-893f-994b1c225962")
+	)
+	(wire
+		(pts
+			(xy 127 74.93) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8b3eef-bf34-43da-a07c-5a3f4954c305")
+	)
+	(wire
+		(pts
+			(xy 137.16 74.93) (xy 137.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fc6c6d-a543-4099-afd5-6947e3b102ec")
 	)
 	(wire
 		(pts
@@ -967,16 +913,6 @@
 			(type default)
 		)
 		(uuid "4064669c-19d8-4085-8a2c-e0e31f0a471d")
-	)
-	(wire
-		(pts
-			(xy 114.3 82.55) (xy 119.38 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45ab7fd8-726c-44e2-aa6f-73b5148c29b2")
 	)
 	(wire
 		(pts
@@ -1010,13 +946,43 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 82.55) (xy 139.7 82.55)
+			(xy 137.16 82.55) (xy 137.16 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "695d71c2-bc57-49b6-950e-ca24c78a7326")
+		(uuid "5be8a535-420d-4a2c-9dc9-36089d9d1650")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cb23b4-fb11-4ef8-9dce-3c68bbf1e39f")
+	)
+	(wire
+		(pts
+			(xy 116.84 82.55) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969f83e3-1f40-498e-97e9-f479a9d119e6")
+	)
+	(wire
+		(pts
+			(xy 116.84 74.93) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5ab383-f060-4a93-ae83-28b83569fc90")
 	)
 	(wire
 		(pts
@@ -1030,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 127 92.71)
+			(xy 127 85.09) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1130,6 +1096,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 85.09) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36efb37-fe33-487c-84b8-d4fd17c030c6")
+	)
+	(wire
+		(pts
 			(xy 152.4 67.31) (xy 156.21 67.31)
 		)
 		(stroke
@@ -1205,7 +1181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 164.7952 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1285,7 +1261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Axial_L6.6mm_D2.7mm_P2.54mm_Vertical_Vishay_IM-2"
 			(at 160.02 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -1365,7 +1341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 101.6 65.532 90)
 			(hide yes)
 			(show_name no)
@@ -1492,8 +1468,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Bridge_+-AA")
-		(at 127 82.55 90)
+		(lib_id "Device:D")
+		(at 123.19 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1502,9 +1478,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7cffeb75-595e-46a0-b32d-084aa88173d8")
+		(uuid "51217ed6-d067-40a0-9cc3-9747d04e03db")
 		(property "Reference" "Dac"
-			(at 140.97 77.5968 90)
+			(at 123.19 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1513,8 +1489,8 @@
 				)
 			)
 		)
-		(property "Value" "D_Bridge_+-AA"
-			(at 140.97 80.1368 90)
+		(property "Value" "D"
+			(at 123.19 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1523,8 +1499,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 82.55 0)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 123.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1535,7 +1511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 82.55 0)
+			(at 123.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1545,8 +1521,30 @@
 				)
 			)
 		)
-		(property "Description" "Diode bridge, +ve/-ve/AC/AC"
-			(at 127 82.55 0)
+		(property "Description" "Diode"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1557,16 +1555,214 @@
 			)
 		)
 		(pin "1"
-			(uuid "e477d91f-8336-44fa-a19a-03009d1b5769")
+			(uuid "65775c8f-c064-43ad-a6de-bf1eb0818133")
 		)
 		(pin "2"
-			(uuid "9a547909-73af-4079-ad49-e0c0bcb187e9")
+			(uuid "1fa3ed82-62f3-478b-afc4-15371a25344e")
 		)
-		(pin "3"
-			(uuid "852088fb-b32d-40a7-814c-79114e8f5766")
+		(instances
+			(project "Solar_Battery"
+				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Dac")
+					(unit 1)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "996eb7e5-a1e3-49ca-b776-309de1ee81cd")
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 133.35 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69e793d8-9a54-4e88-b105-fcb074e91c66")
+		(property "Reference" "Dac"
+			(at 133.35 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 133.35 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 133.35 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 133.35 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 133.35 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "858d4293-810b-47c0-a81c-8be9212ff158")
+		)
+		(pin "1"
+			(uuid "8f24198e-ce38-4392-b8a8-58e7e3065783")
+		)
+		(instances
+			(project "Solar_Battery"
+				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Dac")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 133.35 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a19b067-a8d9-42c9-8fdc-94fd6fd57edd")
+		(property "Reference" "Dac"
+			(at 133.35 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 133.35 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 133.35 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 133.35 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 133.35 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c348973d-edcd-49b8-8d18-1ef61561e6f1")
+		)
+		(pin "2"
+			(uuid "3ca2c2ec-4ac8-4b8c-8b07-eb75ea6e5d19")
 		)
 		(instances
 			(project "Solar_Battery"
@@ -1656,6 +1852,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 120.65 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb8ec7bf-1127-4968-9580-7abaf24ef722")
+		(property "Reference" "Dac"
+			(at 120.65 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 120.65 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 120.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 120.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f14870e-b68a-4cdc-a243-c02261e1dfb2")
+		)
+		(pin "2"
+			(uuid "25906fbf-7b51-4d3c-b9ad-fe6a19133993")
+		)
+		(instances
+			(project "Solar_Battery"
+				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Dac")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 152.4 80.01 0)
 		(unit 1)
@@ -1689,7 +1987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 153.3652 83.82 0)
 			(hide yes)
 			(show_name no)
