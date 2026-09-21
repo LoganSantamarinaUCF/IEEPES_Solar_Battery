@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "UCC") (type "KiCad") (uri "C:/Users/theyo/Lib Dump/KiCADv6/2026-09-14_22-04-40.kicad_sym") (options "") (descr ""))
 	(lib (name "BQ") (type "KiCad") (uri "C:/Users/theyo/Lib Dump/KiCADv6/2026-09-14_22-32-14.kicad_sym") (options "") (descr ""))
+	(lib (name "test4") (type "") (uri "/Users/JaredBialek/Downloads/ul_FDD6N50TF/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
