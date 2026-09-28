@@ -111,7 +111,7 @@
 				(justify left)
 			)
 		)
-		(pin "Iout" input
+		(pin "Iout" output
 			(at 133.35 115.57 0)
 			(uuid "e7508808-d122-4795-a3c0-46d373b8dff6")
 			(effects
