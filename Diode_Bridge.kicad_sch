@@ -856,7 +856,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 67.31) (xy 88.9 71.12)
+			(xy 83.82 67.31) (xy 83.82 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 67.31) (xy 88.9 67.31)
+			(xy 97.79 67.31) (xy 83.82 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 80.01) (xy 88.9 101.6)
+			(xy 88.9 93.98) (xy 88.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1114,7 +1114,7 @@
 		)
 		(uuid "fb00289a-ca6e-4baa-981b-5d0fd2be529e")
 	)
-	(hierarchical_label "Iout"
+	(hierarchical_label "Rectifier_Out"
 		(shape output)
 		(at 172.72 67.31 0)
 		(effects
@@ -1125,20 +1125,20 @@
 		)
 		(uuid "00332d77-03cc-4516-b2e0-52cd90835769")
 	)
-	(hierarchical_label "Vin"
+	(hierarchical_label "Wall_Voltage_In"
 		(shape input)
-		(at 88.9 71.12 0)
+		(at 83.82 71.12 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2837e084-9873-489c-a26d-6d0fd97152dd")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "Wall_Ground"
 		(shape input)
-		(at 88.9 80.01 0)
+		(at 88.9 93.98 90)
 		(effects
 			(font
 				(size 1.27 1.27)

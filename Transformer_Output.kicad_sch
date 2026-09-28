@@ -1364,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 77.47) (xy 228.6 86.36)
+			(xy 237.49 77.47) (xy 237.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 99.06) (xy 228.6 111.76)
+			(xy 242.57 109.22) (xy 242.57 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 77.47) (xy 228.6 77.47)
+			(xy 208.28 77.47) (xy 237.49 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1504,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 111.76) (xy 228.6 111.76)
+			(xy 208.28 111.76) (xy 242.57 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1532,9 +1532,9 @@
 		)
 		(uuid "f07c69e4-ce7b-4ffb-ba8d-1304159bb813")
 	)
-	(hierarchical_label "I_Out"
+	(hierarchical_label "Rectifier_GND"
 		(shape input)
-		(at 228.6 99.06 90)
+		(at 242.57 109.22 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1554,7 +1554,7 @@
 		)
 		(uuid "6ddf8435-5cb8-4f9e-98b1-a48b53d65b8c")
 	)
-	(hierarchical_label "Transformer_Out"
+	(hierarchical_label "Zener_UCC_Chip"
 		(shape input)
 		(at 132.08 139.7 270)
 		(effects
@@ -1565,7 +1565,7 @@
 		)
 		(uuid "6e38b280-efd5-415b-a1fb-edb3de087666")
 	)
-	(hierarchical_label "Chip_In"
+	(hierarchical_label "Mosfet_Snub"
 		(shape input)
 		(at 93.98 101.6 270)
 		(effects
@@ -1576,9 +1576,9 @@
 		)
 		(uuid "a09b0234-5b79-48d7-bec1-a329653777d6")
 	)
-	(hierarchical_label "I_In"
+	(hierarchical_label "Main_Output"
 		(shape input)
-		(at 228.6 86.36 270)
+		(at 237.49 87.63 270)
 		(effects
 			(font
 				(size 1.27 1.27)

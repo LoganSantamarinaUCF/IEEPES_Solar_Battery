@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 107.95 132.08)
-		(size 54.61 26.67)
+		(size 66.548 28.702)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "UCC_Chip.kicad_sch"
-			(at 107.95 159.3346 0)
+			(at 107.95 161.3666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42,6 +42,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Rectifier_UCC_In" input
+			(at 135.89 132.08 90)
+			(uuid "5b227666-c1fa-44f9-a744-3c8549171eaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Zener_UCC_Chip" input
+			(at 153.67 132.08 90)
+			(uuid "823ada9b-ae74-49b5-8c75-89299dba4edd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -53,8 +73,8 @@
 		)
 	)
 	(sheet
-		(at 107.95 105.41)
-		(size 25.4 22.86)
+		(at 95.758 91.44)
+		(size 37.592 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -69,7 +89,7 @@
 		)
 		(uuid "66c5df4f-46ad-4d4f-997c-052ec03a6539")
 		(property "Sheetname" "Diode_Bridge"
-			(at 107.95 104.6984 0)
+			(at 95.758 90.7284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -80,7 +100,7 @@
 			)
 		)
 		(property "Sheetfile" "Diode_Bridge.kicad_sch"
-			(at 107.95 128.8546 0)
+			(at 95.758 128.8546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -92,7 +112,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 107.95 120.65 180)
+			(at 95.758 120.65 180)
 			(uuid "96627f73-21b1-49de-bfa6-6411f8f885ff")
 			(effects
 				(font
@@ -102,7 +122,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 107.95 113.03 180)
+			(at 95.758 113.03 180)
 			(uuid "7c2e16ba-26e7-4c4a-afd0-cbcfc8bf3afd")
 			(effects
 				(font
@@ -111,9 +131,9 @@
 				(justify left)
 			)
 		)
-		(pin "Iout" output
-			(at 133.35 115.57 0)
-			(uuid "e7508808-d122-4795-a3c0-46d373b8dff6")
+		(pin "Rectifier_Out" output
+			(at 133.35 99.06 0)
+			(uuid "1e4ae7a0-b110-4893-a49b-f73566188263")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,8 +150,8 @@
 		)
 	)
 	(sheet
-		(at 138.43 105.41)
-		(size 24.13 22.86)
+		(at 138.43 90.932)
+		(size 57.912 37.338)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -146,7 +166,7 @@
 		)
 		(uuid "7e488579-baf6-4b9f-affb-a6601b6eb832")
 		(property "Sheetname" "Transformer_Output"
-			(at 138.43 104.6984 0)
+			(at 138.43 90.2204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -166,6 +186,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Mosfet_Snub" input
+			(at 167.64 128.27 270)
+			(uuid "0f749fe0-ef29-4b78-86cd-5a8fbc9ad142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rectifier_In" input
+			(at 138.43 99.06 180)
+			(uuid "cb4db609-b450-4282-a5a5-65f748d22294")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Zener_UCC_Chip" input
+			(at 153.67 128.27 270)
+			(uuid "2c51213e-92a0-434a-b2c6-fd04161d5bdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Main_Output" input
+			(at 196.342 104.14 0)
+			(uuid "821be199-e5f7-4056-98a0-aac147b8b482")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Rectifier_GND" input
+			(at 196.342 115.57 0)
+			(uuid "12602668-3460-415a-9682-fd3f0514170c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
