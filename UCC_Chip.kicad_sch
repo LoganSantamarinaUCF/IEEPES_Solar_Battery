@@ -1677,7 +1677,7 @@
 	)
 	(hierarchical_label "Rectifier_UCC_In"
 		(shape input)
-		(at 121.92 45.72 0)
+		(at 132.08 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
