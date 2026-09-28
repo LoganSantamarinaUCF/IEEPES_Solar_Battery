@@ -536,6 +536,208 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UCC28710:ucc_chip"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "ucc_28710"
+				(at 0.762 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ucc_chip_0_0"
+				(pin power_in line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "CBC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "HV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ucc_chip_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -863,6 +1065,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 74.93) (xy 100.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ef93fc-2f90-4155-9314-c36f680c4240")
+	)
+	(wire
+		(pts
 			(xy 58.42 80.01) (xy 58.42 83.82)
 		)
 		(stroke
@@ -1153,6 +1365,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 77.47) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9df914-6e6c-4f6f-b635-03fed6068c06")
+	)
+	(wire
+		(pts
+			(xy 95.25 83.82) (xy 95.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e37043-a6a6-4f58-b3b4-2a7dbb29acdf")
+	)
+	(wire
+		(pts
 			(xy 91.44 99.06) (xy 87.63 99.06)
 		)
 		(stroke
@@ -1163,16 +1395,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 86.36) (xy 100.33 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ab498c4-b224-47f5-bb5c-3335de32ccb0")
-	)
-	(wire
-		(pts
 			(xy 91.44 71.12) (xy 91.44 77.47)
 		)
 		(stroke
@@ -1180,16 +1402,6 @@
 			(type default)
 		)
 		(uuid "a35e98c1-5891-4f5f-b3eb-d2ab437fc091")
-	)
-	(wire
-		(pts
-			(xy 81.28 83.82) (xy 99.06 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4539ebb-f254-46ad-8c2f-28a56be718ae")
 	)
 	(wire
 		(pts
@@ -1213,6 +1425,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 86.36) (xy 96.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7542d7-8260-4649-987f-79499ed8abaa")
+	)
+	(wire
+		(pts
 			(xy 60.96 88.9) (xy 60.96 93.98)
 		)
 		(stroke
@@ -1230,6 +1452,16 @@
 			(type default)
 		)
 		(uuid "beeaa629-2744-492e-ba88-a4722a357506")
+	)
+	(wire
+		(pts
+			(xy 68.58 86.36) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1358d7b-c901-45a6-9745-70afe5629b55")
 	)
 	(wire
 		(pts
@@ -1343,6 +1575,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 83.82) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9b157d-8e79-4ada-8da8-6fb9d53f8053")
+	)
+	(wire
+		(pts
 			(xy 80.01 99.06) (xy 72.39 99.06)
 		)
 		(stroke
@@ -1444,6 +1686,12 @@
 			(uuid "dcc5af4d-a99e-4858-9711-daf0bd222baf")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "+")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "+")
@@ -1523,6 +1771,12 @@
 			(uuid "9c400069-ae27-453c-b83f-2a9914f8cdfb")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "+")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "+")
@@ -1604,6 +1858,12 @@
 			(uuid "0415722d-96e3-4ff8-882d-920cf3cf1b04")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "+")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "+")
@@ -1705,9 +1965,110 @@
 			(uuid "5cc838dc-1f1d-44da-94fe-59f0a3087a54")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "+")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "+")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UCC28710:ucc_chip")
+		(at 113.03 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55cf11f2-112c-4a53-9347-5cb74f7e5152")
+		(property "Reference" "ucc_1"
+			(at 113.03 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 113.03 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "096a14ec-150f-4073-ab46-b20460d94bf0")
+		)
+		(pin "6"
+			(uuid "25bd8bae-4c0f-4b3c-b143-8c3bf3ceb83d")
+		)
+		(pin "8"
+			(uuid "a5f82656-8d70-419e-8321-7199a8984b6b")
+		)
+		(pin "2"
+			(uuid "7a94dba3-9903-4201-b27f-8a8aa62fbe53")
+		)
+		(pin "4"
+			(uuid "aaa76a3d-90c5-4e73-8958-296f9a032a59")
+		)
+		(pin "5"
+			(uuid "37acc07d-e031-429b-b1b8-5bf673b046a3")
+		)
+		(pin "3"
+			(uuid "c187c372-2dbc-43f2-8dac-e4ae2713c129")
+		)
+		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "ucc_1")
 					(unit 1)
 				)
 			)
@@ -1783,6 +2144,12 @@
 			(uuid "174ee93a-c4fc-487b-9fba-61b40b59a2b4")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "#PWR05")
@@ -1884,6 +2251,12 @@
 			(uuid "cbd70bde-e55e-4603-bc3f-b60288c2fb35")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "+")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "+")
@@ -1963,6 +2336,12 @@
 			(uuid "03c2b79a-cff1-4c31-a125-93ce8e2ec990")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "+")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "+")
@@ -2042,6 +2421,12 @@
 			(uuid "3c13a8a5-4137-4315-86fa-ba3ec9601e3c")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "+")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "+")
@@ -2120,6 +2505,12 @@
 			(uuid "a394fdbf-c86b-4a17-8713-e8e1c9969e20")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "#PWR02")
@@ -2199,6 +2590,12 @@
 			(uuid "f4c89154-f866-4613-a371-2ae9ae085b0c")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "+")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "+")
@@ -2277,6 +2674,12 @@
 			(uuid "48518f36-e32a-4025-9797-d8f9c0309a64")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "#PWR03")
@@ -2356,6 +2759,12 @@
 			(uuid "dd666d0e-c859-4497-bc5b-178c47418107")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "CDD")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "CDD")
@@ -2437,6 +2846,12 @@
 			(uuid "0f56bd67-4224-4936-936b-c2a6b0b9bc0e")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "+")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "+")
@@ -2515,6 +2930,12 @@
 			(uuid "652fa3de-25d4-4ad0-b627-3c5d526c6250")
 		)
 		(instances
+			(project "UCC_Chip"
+				(path "/33cfd970-7195-40cd-87dc-a099d1f2e89f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
 					(reference "#PWR04")
@@ -2523,4 +2944,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
