@@ -1227,6 +1227,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Cin2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1307,6 +1313,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1321,7 +1333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23f480cf-f79d-486f-a2c7-a68c568ef8c3")
-		(property "Reference" "Rl"
+		(property "Reference" "Rl1"
 			(at 101.6 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1384,6 +1396,12 @@
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/66c5df4f-46ad-4d4f-997c-052ec03a6539"
 					(reference "Rl")
+					(unit 1)
+				)
+			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Rl1")
 					(unit 1)
 				)
 			)
@@ -1465,6 +1483,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1479,7 +1503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51217ed6-d067-40a0-9cc3-9747d04e03db")
-		(property "Reference" "Dac"
+		(property "Reference" "Dac2"
 			(at 123.19 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1567,6 +1591,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Dac2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1581,7 +1611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69e793d8-9a54-4e88-b105-fcb074e91c66")
-		(property "Reference" "Dac"
+		(property "Reference" "Dac3"
 			(at 133.35 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1669,6 +1699,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Dac3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1683,7 +1719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a19b067-a8d9-42c9-8fdc-94fd6fd57edd")
-		(property "Reference" "Dac"
+		(property "Reference" "Dac4"
 			(at 133.35 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1771,6 +1807,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Dac4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1785,7 +1827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94acd4d2-2369-4978-9c98-976365d2b455")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 127 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1849,6 +1891,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1863,7 +1911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb8ec7bf-1127-4968-9580-7abaf24ef722")
-		(property "Reference" "Dac"
+		(property "Reference" "Dac1"
 			(at 120.65 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1951,6 +1999,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Dac1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1965,7 +2019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d94de9c1-eef0-416a-922f-fb02610063d5")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin1"
 			(at 156.21 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2030,6 +2084,12 @@
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/66c5df4f-46ad-4d4f-997c-052ec03a6539"
 					(reference "Cin")
+					(unit 1)
+				)
+			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/66c5df4f-46ad-4d4f-997c-052ec03a6539"
+					(reference "Cin1")
 					(unit 1)
 				)
 			)

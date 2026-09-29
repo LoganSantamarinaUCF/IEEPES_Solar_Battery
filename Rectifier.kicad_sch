@@ -70,6 +70,11 @@
 					(page "6")
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531"
+					(page "3")
+				)
+			)
 		)
 	)
 	(sheet
@@ -145,6 +150,11 @@
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179"
 					(page "4")
+				)
+			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531"
+					(page "2")
 				)
 			)
 		)
@@ -244,6 +254,17 @@
 					(page "5")
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531"
+					(page "4")
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

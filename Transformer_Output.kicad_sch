@@ -1599,7 +1599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d552f6-41fd-434f-977a-c04ab3eb7ee9")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR07"
 			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1663,6 +1663,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1676,7 +1682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d183ec7-d72e-4271-9181-fc6aa29f89a6")
-		(property "Reference" "+"
+		(property "Reference" "+11"
 			(at 91.44 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,6 +1770,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "+11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1777,7 +1789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51bb3ace-c70f-4bc9-ab12-39e21a91c207")
-		(property "Reference" "C1+"
+		(property "Reference" "C1+1"
 			(at 212.09 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1846,6 +1858,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "C1+1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1859,7 +1877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56bc0863-805f-4854-8b55-22a44e6ddd01")
-		(property "Reference" "CSNUB"
+		(property "Reference" "CSNUB1"
 			(at 84.328 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1927,6 +1945,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "CSNUB1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1940,7 +1964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "797a658f-e14d-4052-80cb-cee94e84a4f9")
-		(property "Reference" "+"
+		(property "Reference" "+14"
 			(at 185.674 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2008,6 +2032,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "+14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2021,7 +2051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c022d4f-fd8a-420b-a62e-1ba83d55737f")
-		(property "Reference" "+"
+		(property "Reference" "+10"
 			(at 104.394 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2089,6 +2119,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "+10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2102,7 +2138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9128a77c-4e76-417e-bb08-2da69a516ea7")
-		(property "Reference" "+"
+		(property "Reference" "+13"
 			(at 159.258 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2187,6 +2223,12 @@
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/7e488579-baf6-4b9f-affb-a6601b6eb832"
 					(reference "+")
+					(unit 1)
+				)
+			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "+13")
 					(unit 1)
 				)
 			)
@@ -2283,6 +2325,12 @@
 					(unit 1)
 				)
 			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "T1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2296,7 +2344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d456de5f-596f-47b9-9203-cb1bc9da533f")
-		(property "Reference" "+"
+		(property "Reference" "+12"
 			(at 123.444 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2361,6 +2409,12 @@
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/7e488579-baf6-4b9f-affb-a6601b6eb832"
 					(reference "+")
+					(unit 1)
+				)
+			)
+			(project "Rectifier"
+				(path "/fabf5a3f-f60f-4bcb-816d-2ffdd48e9531/7e488579-baf6-4b9f-affb-a6601b6eb832"
+					(reference "+12")
 					(unit 1)
 				)
 			)
