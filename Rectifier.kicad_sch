@@ -5,6 +5,62 @@
 	(uuid "fabf5a3f-f60f-4bcb-816d-2ffdd48e9531")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 135.89 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a24442-f150-4c8f-a443-0c073bee23d6")
+	)
+	(wire
+		(pts
+			(xy 153.67 128.27) (xy 153.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e7d50b-8e32-4ff8-bc6b-e5f9a365b5c8")
+	)
+	(wire
+		(pts
+			(xy 167.64 128.27) (xy 167.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0a0c27-caa9-4ce4-bbdb-209711236155")
+	)
+	(wire
+		(pts
+			(xy 135.89 99.06) (xy 135.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e63e6e3-5dca-45f9-807d-ef3871df8cad")
+	)
+	(wire
+		(pts
+			(xy 133.35 99.06) (xy 135.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b5a2a9-3cec-4aeb-a92b-38dbf328010a")
+	)
+	(wire
+		(pts
+			(xy 135.89 99.06) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde3df02-b41e-4054-ba0d-7582a6033a41")
+	)
 	(sheet
 		(at 107.95 132.08)
 		(size 66.548 28.702)
@@ -64,6 +120,16 @@
 				(justify right)
 			)
 		)
+		(pin "MosfetDrain" input
+			(at 167.64 132.08 90)
+			(uuid "02392fac-b998-48c4-8a25-99addfe5f3e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179"
@@ -111,26 +177,6 @@
 				(justify left top)
 			)
 		)
-		(pin "GND" input
-			(at 95.758 120.65 180)
-			(uuid "96627f73-21b1-49de-bfa6-6411f8f885ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vin" input
-			(at 95.758 113.03 180)
-			(uuid "7c2e16ba-26e7-4c4a-afd0-cbcfc8bf3afd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Rectifier_Out" output
 			(at 133.35 99.06 0)
 			(uuid "1e4ae7a0-b110-4893-a49b-f73566188263")
@@ -139,6 +185,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Wall_Voltage_In" input
+			(at 95.758 100.33 180)
+			(uuid "cf1a05e1-cb4f-44d0-bf3f-426ef5b91228")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Wall_Ground" input
+			(at 95.758 107.95 180)
+			(uuid "1dda80f1-9431-40d4-b53d-6ea564d40b12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
