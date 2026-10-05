@@ -56,7 +56,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 76.2)
+		(at 109.474 75.946)
 		(size 30.48 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72,7 +72,7 @@
 		)
 		(uuid "a320594e-eb17-43a9-8193-2f75b3718179")
 		(property "Sheetname" "Rectifier"
-			(at 98.044 75.692 0)
+			(at 109.728 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85,7 +85,7 @@
 			)
 		)
 		(property "Sheetfile" "Rectifier.kicad_sch"
-			(at 97.79 117.4246 0)
+			(at 109.474 117.1706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
