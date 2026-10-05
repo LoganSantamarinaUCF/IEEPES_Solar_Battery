@@ -2028,7 +2028,7 @@
 		(dnp no)
 		(uuid "3693a72a-50ea-479c-b234-c20b4150df49")
 		(property "Reference" "+8"
-			(at 155.956 130.81 90)
+			(at 154.432 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2047,7 +2047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 159.004 132.334 90)
 			(hide yes)
 			(show_name no)
@@ -2369,7 +2369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 178.054 77.724 90)
 			(hide yes)
 			(show_name no)
@@ -2507,7 +2507,7 @@
 		(dnp no)
 		(uuid "7c78e210-490d-44da-b57a-4f10e378444e")
 		(property "Reference" "+1"
-			(at 107.188 113.792 90)
+			(at 105.156 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2526,7 +2526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 109.474 109.474 90)
 			(hide yes)
 			(show_name no)
@@ -2586,7 +2586,7 @@
 		(dnp no)
 		(uuid "89c0575f-2e94-48be-9c1c-7f3de09601df")
 		(property "Reference" "+9"
-			(at 190.754 116.332 0)
+			(at 192.278 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2607,7 +2607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 189.484 112.014 90)
 			(hide yes)
 			(show_name no)
@@ -2667,7 +2667,7 @@
 		(dnp no)
 		(uuid "afb2ab4b-aa54-4023-b59a-7d8742eddb51")
 		(property "Reference" "+6"
-			(at 194.31 92.456 0)
+			(at 193.548 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2688,7 +2688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 197.866 90.424 90)
 			(hide yes)
 			(show_name no)
@@ -2965,7 +2965,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 98.044 117.856 90)
 			(hide yes)
 			(show_name no)
@@ -3122,7 +3122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 147.066 127.254 90)
 			(hide yes)
 			(show_name no)
