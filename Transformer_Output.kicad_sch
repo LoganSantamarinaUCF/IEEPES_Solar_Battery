@@ -2215,7 +2215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Transformer_THT:Transformer_Toroid_Tapped_Horizontal_D10.5mm_Amidon-T37"
 			(at 146.05 83.82 0)
 			(hide yes)
 			(show_name no)

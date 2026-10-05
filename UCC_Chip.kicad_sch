@@ -2285,7 +2285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO220AB_VIS"
+		(property "Footprint" "footprints:TO220AB_VIS"
 			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2869,7 +2869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO_UCC28710D_TEX"
+		(property "Footprint" "footprints:SO_UCC28710D_TEX"
 			(at 156.21 110.49 0)
 			(hide yes)
 			(show_name no)
