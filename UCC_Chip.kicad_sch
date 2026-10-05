@@ -1926,7 +1926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f77a5ab-2560-49ca-9ea0-6a83c04d13c9")
-		(property "Reference" "+5"
+		(property "Reference" "+12"
 			(at 193.294 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2010,7 +2010,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "+5")
+					(reference "+12")
 					(unit 1)
 				)
 			)
@@ -2027,7 +2027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3693a72a-50ea-479c-b234-c20b4150df49")
-		(property "Reference" "+8"
+		(property "Reference" "+9"
 			(at 155.956 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2089,7 +2089,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "+8")
+					(reference "+9")
 					(unit 1)
 				)
 			)
@@ -2106,7 +2106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b766ade-d286-4601-aaf5-5ec9fc8c54cf")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 175.26 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2167,7 +2167,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2184,7 +2184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a9b9406-6dd0-443f-ac19-a08c3e927b38")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 171.45 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2245,7 +2245,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2349,7 +2349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "588f717d-e21c-4f32-82ff-b6ee5ef76bac")
-		(property "Reference" "+4"
+		(property "Reference" "+11"
 			(at 175.006 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,7 +2411,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "+4")
+					(reference "+11")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5edeafc8-bcea-4ced-9535-f277b61bfda8")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR017"
 			(at 162.56 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2489,7 +2489,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "#PWR05")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2506,7 +2506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c78e210-490d-44da-b57a-4f10e378444e")
-		(property "Reference" "+1"
+		(property "Reference" "+7"
 			(at 107.188 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2568,7 +2568,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "+1")
+					(reference "+7")
 					(unit 1)
 				)
 			)
@@ -2585,7 +2585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89c0575f-2e94-48be-9c1c-7f3de09601df")
-		(property "Reference" "+9"
+		(property "Reference" "+13"
 			(at 190.754 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,7 +2649,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "+9")
+					(reference "+13")
 					(unit 1)
 				)
 			)
@@ -2666,7 +2666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afb2ab4b-aa54-4023-b59a-7d8742eddb51")
-		(property "Reference" "+6"
+		(property "Reference" "+14"
 			(at 194.31 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +2730,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "+6")
+					(reference "+14")
 					(unit 1)
 				)
 			)
@@ -2747,7 +2747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1bda1ee-28c4-44d5-bce6-f22e51465395")
-		(property "Reference" "+3"
+		(property "Reference" "+10"
 			(at 158.242 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2831,7 +2831,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "+3")
+					(reference "+10")
 					(unit 1)
 				)
 			)
@@ -2945,7 +2945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6bf1325-3312-466c-b5aa-6597579511b6")
-		(property "Reference" "+2"
+		(property "Reference" "+6"
 			(at 96.774 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3007,7 +3007,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "+2")
+					(reference "+6")
 					(unit 1)
 				)
 			)
@@ -3024,7 +3024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec9b2085-30f8-4e5e-9ca9-229c3c0befaa")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 99.06 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3085,7 +3085,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3102,7 +3102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb6e3b4f-8537-48da-8166-77aaa8ef90a9")
-		(property "Reference" "+7"
+		(property "Reference" "+8"
 			(at 148.082 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,7 +3164,7 @@
 		(instances
 			(project "Solar_Battery"
 				(path "/6805959e-39bb-4644-b93e-3970e29fedc0/a320594e-eb17-43a9-8193-2f75b3718179/23661c41-dbb5-4ca2-a742-531e78ada01c"
-					(reference "+7")
+					(reference "+8")
 					(unit 1)
 				)
 			)
